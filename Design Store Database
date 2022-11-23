@@ -1,0 +1,18 @@
+CREATE TABLE ShoeStore (id INTEGER PRIMARY KEY, brand TEXT, style TEXT, gender TEXT, size INTEGER, asile INTEGER, price INTEGER);
+INSERT into ShoeStore VALUES (1, "Nike", "Running Shoe", "Mens", 7.5, 5,75.00);
+INSERT into ShoeStore VALUES (2, "Under Armour", "Running Shoe", "Mens", 8, 5, 80.00);
+INSERT into ShoeStore VALUES (3, "New Balance", "Running Shoe", "Mens", 9, 5, 95.00);
+INSERT into ShoeStore VALUES (4, "Nike", "Running Shoe", "Womens", 6, 6, 65.00);
+INSERT into ShoeStore VALUES (5, "Under Armour", "Running Shoe", "Womens", 7, 6, 75.00);
+INSERT into ShoeStore VALUES (6, "New Balance", "Running Shoe", "Womens", 8, 6, 85.00);
+INSERT into ShoeStore VALUES (7, "Colombia", "Boots", "Mens", 10, 7, 99.00);
+INSERT into ShoeStore VALUES (8, "Timberland", "Boots", "Mens", 11, 7, 120.00);
+INSERT into ShoeStore VALUES (9, "Colombia", "Boots", "Womens", 8, 7, 99.00);
+INSERT into ShoeStore VALUES (10, "Timberland", "Boots", "Womens", 9.5, 7, 120.00);
+INSERT into ShoeStore VALUES (11, "Cole Haan", "Dress Shoe", "Mens", 10, 8, 75.00);
+INSERT into ShoeStore VALUES (12, "Aldo", "Dress Shoe", "Mens", 11, 8, 99.00);
+INSERT into ShoeStore VALUES (13, "Nine West", "Dress Shoe", "Womens", 8, 8, 75.00);
+INSERT into ShoeStore VALUES (14, "Anne Klein", "Dress Shoe", "Womens", 10, 8, 95.00);
+INSERT into ShoeStore VALUES (15, "Nike", "Socks", "Mens", 8, 9, 10.00);
+INSERT into ShoeStore VALUES (16, "Nike", "Socks", "Womens", 8, 9, 10.00);
+SELECT * FROM ShoeStore;
